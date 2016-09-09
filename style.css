@@ -1,0 +1,13 @@
+body {
+    background-color: rebeccapurple;
+    color: peachpuff;
+}
+h2 {
+    color: coral;
+}
+div#catList{
+    background-color: firebrick;
+}
+.jellyBeans {
+    color: aquamarine;
+}
