@@ -1,7 +1,11 @@
 body {
     background-color: purple;
     color: peachpuff;
-}
+    font-family: "Times New Roman", serif;
+    background-image: url(Image/back.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    }
 h2 {
     color: coral;
 }
@@ -14,5 +18,22 @@ div#catList{
 
 a {
     color: yellow;
+    font-size: 1.5em;
+    font-style: oblique;
+    text-decoration: none;
+    }
+
+h1, h2, h3 {
+    font-family: "Lucida Console", monospace;
+}
+h1 {
+    text-transform: uppercase;
+}
+footer{
+  font-size: .75em;
+    font-style:italic;
 }
 
+ul {
+    list-style-type:square;
+}
