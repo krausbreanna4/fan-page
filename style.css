@@ -1,7 +1,7 @@
 body {
     background-color: #000000;
     color: #0DB594;
-    font-family: Arial, serif;
+    font-family: "Arial", serif;
     background-position: right;
     background-repeat: repeat;
     background-size: cover;
@@ -17,33 +17,46 @@ h2 {
 .jellyBeans {
     color: aquamarine;
 }
+
 nav {
-    padding: 20 px;
+    padding: 20px;
     float: left;
     width: 160px;
-    }
-@media only screen and (max-width: 50em) {
-    nav{float: none;}
 }
+
+@media only screen and (max-width: 50em) {
+    nav {
+        float: none;
+    }
+}
+
 nav ul {
     list-style-type: none;
     margin: 1px;
     padding-left: 1px
-    }
+}
 
 a {
     font-style: oblique;
     text-decoration: none;
-    
 }
+
 a:link {
-    color:greenyellow; background-color: transparent; text-decoration: none;
+    color: greenyellow;
+    background-color: transparent;
+    text-decoration: none;
 }
+
 a:visited {
-    color:#FFFFFF; background-color: transparent; text-decoration: none;
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
 }
-a:hover{
-    color: #62D597; background-color: transparent; text-decoration: underline;
+
+a:hover {
+    color: #62D597;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 h1,
@@ -57,7 +70,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-size: 150px;
-    font-family: Segoe UI, Arial Narrow, sans-serif;
+    font-family: "Segoe UI", "Arial Narrow", sans-serif;
     color: #0EC362;
 }
 
@@ -66,8 +79,12 @@ footer {
     font-style: italic;
     text-align: center;
 }
+
 @media only screen and (max-width: 64em) {
-   footer { margin-left: 0; font-size: 90% }
+    footer {
+        margin-left: 0px;
+        font-size: 90%
+    }
 }
 
 ul {
@@ -101,10 +118,12 @@ main {
     top: 100px;
     width: 100%;
 }
+
 h4 {
     font-size: 15px;
     font-style: italic;
 }
+
 #links {
     font-size: 1.5em;
 }
