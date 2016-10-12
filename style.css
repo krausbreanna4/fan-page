@@ -17,6 +17,20 @@ h2 {
 .jellyBeans {
     color: aquamarine;
 }
+nav {
+    padding: 20 px;
+    float: left;
+    width: 160px;
+    }
+@media only screen and (max-width: 50em) {
+    nav{float: none;}
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: .75 em;
+}
 
 a {
     font-style: oblique;
@@ -52,6 +66,11 @@ footer {
     font-size: .75em;
     font-style: italic;
     text-align: center;
+}
+@media only screen and (max-width: 64em) {
+   footer { margin-left: 0; font-size: 90% }
+}
+
 }
 
 ul {
