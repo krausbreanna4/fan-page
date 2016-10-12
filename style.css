@@ -27,10 +27,9 @@ nav {
 }
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding-left: 0;
-    font-size: .75 em;
-}
+    margin: 0px;
+    padding-left: 0px;
+    }
 
 a {
     font-style: oblique;
@@ -69,8 +68,6 @@ footer {
 }
 @media only screen and (max-width: 64em) {
    footer { margin-left: 0; font-size: 90% }
-}
-
 }
 
 ul {
