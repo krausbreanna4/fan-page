@@ -13,7 +13,8 @@ body {
         width: 300px;
     }
     div#header {
-        height: 93px;
+        height: 75px;
+        position: relative;
         }
     h1 {
         font-size: 110%
