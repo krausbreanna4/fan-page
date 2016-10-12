@@ -15,10 +15,7 @@ body {
     div#header {
         height: 75px;
         position: relative;
-        left: auto;
-        right: auto;
-        top:auto;
-        bottom:auto;
+        left: 30px;
         }
     h1 {
         font-size: 110%
