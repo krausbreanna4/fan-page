@@ -9,10 +9,14 @@ body {
 }
 
 @media only screen and (max-device-width: 480px) {
-    div#wrapper {
+    #wrapper {
         width: 300px;
     }
     
+    #header {
+        height: 65px;
+        position: relative;
+    }
     h1 {
         font-size: 110%
     }
