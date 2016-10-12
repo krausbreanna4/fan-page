@@ -14,7 +14,7 @@ body {
     }
     div#header {
         height: 93px;
-        position: relative;
+        position: fixed;
     }
     h1 {
         font-size: 110%
@@ -23,6 +23,7 @@ body {
         float: none;
         width: auto;
     }
+    
 }
 
 h2 {
