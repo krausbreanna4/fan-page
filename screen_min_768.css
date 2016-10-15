@@ -1,0 +1,24 @@
+@media only screen and (min-width: 768px) {
+    body {
+        background: #313131;
+    }
+    #wrapper {
+        background: #313131;
+    }
+    h1 {
+        font-size: 75px;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    p {
+        color: #0DB594;
+        font-size: 1.3em;
+    }
+    ul {
+        color: #0DB594;
+    }
+    h4 {
+        color: #0DB594;
+    }
+}

@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1024px) {
+    body {
+        background: #000000;
+    }
+    h1 {
+        font-size: 150px;
+        margin: auto;
+    }
+    #wrapper {
+        max-width: 1200px;
+        padding: .9em;
+        background: #000000;
+    }
+    p {
+        color: #0DB594;
+    }
+    ul {
+        color: #0DB594;
+    }
+    h4 {
+        color: #0DB594;
+    }
+}
